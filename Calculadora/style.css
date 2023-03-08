@@ -4,6 +4,8 @@
     border: 0;
     outline: none;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
 }
 
 body{
@@ -37,10 +39,11 @@ body{
     display: flex;
     justify-content: end;
     align-items: center;
+    padding-right: 10px;
 }
 
 button{
-    background-color: #5cb687;
+    background-color: #63f0a7;
     width: 80px;
     height: 60px;
     border-radius: 10px;
