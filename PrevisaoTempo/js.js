@@ -37,23 +37,23 @@ busca.addEventListener('click',()=> {
 
             switch (json.weather[0].main){
                 case 'Clear':
-                    imagem.src = 'img/sol.png';
+                    imagem.src = '/PrevisaoTempo/img/sol.png';
                     break;
 
                 case 'Rain':
-                    imagem.src = 'img/chuva.png';
+                    imagem.src = '/PrevisaoTempo/img/chuva.png';
                     break;
                 
                 case 'Snow':
-                    imagem.src = '/img/trovao.png';
+                    imagem.src = '/PrevisaoTempo/img/trovao.png';
                     break;
 
                 case 'Clouds':
-                    imagem.src = '/img/nublado.png';
+                    imagem.src = '/PrevisaoTempo/img/nublado.png';
                     break;
 
                 case 'Haze':
-                    imagem.src = '/img/trovao.png';
+                    imagem.src = '/PrevisaoTempo/img/trovao.png';
                     break;
                 
                 default:
