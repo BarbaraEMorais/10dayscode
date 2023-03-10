@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+.container{
+    color: white;
+    background-color:#e4847b;
+    padding: 50px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao-precing{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.card-item{
+    width: 250px;
+    height: 400px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card-item:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+    background-color: white;
+    color: black;
+}
+
+.c1, .c2, .c3{
+    margin: 15px 15px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
+
+.c1{
+    background-color: #F2F2F2;
+}
+
+.c2{
+    background-color: #F2C1B6;
+}
+
+.c3{
+    background-color: #BF6860;
+    color: white;
+}
+
+.obter-plano{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.c1 .obter-plano{
+    background-color: #e6b6b1;
+}
+
+.obter-plano:hover{
+    background-color: #f56464;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+i{
+    padding-right: 7px;
+    color: rgb(128, 105, 0);
+}
+
+.preco{
+    font-size: 45px;
+    color: black;
+    border: solid 1px black;
+    padding: 35px 30px;
+    border-radius: 80px;
+}
+
+.beneficios{
+    color: #000000;
+}
+

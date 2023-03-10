@@ -31,6 +31,7 @@ body{
     overflow: hidden;
     transition: 0.6s ease-out;
     box-shadow: 10px 5px 5px rgb(34, 33, 33);
+    border: solid 1px black;
 }
 
 .barra-busca{
